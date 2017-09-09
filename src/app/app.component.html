@@ -1,0 +1,7 @@
+<h1 *ngIf="clicked">
+  My Page is {{title}}
+</h1>
+
+First Name: <input type="text" name="firstName" [(ngModel)]="firstName" #firstObjName/> <br/>
+Last Name: <input type="text" name="lastName" [(ngModel)]="lastName" #lastObjName/> <br/>
+<button (click)="showtitle()">showtitle</button>
